@@ -1,0 +1,50 @@
+.navbar {
+  background-color: rgb(233 60 140);
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+
+  .navbar-brand img {
+    max-height: 40px; 
+    /* width: 30px;
+    height: 24px; */
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .primerafila {
+    flex: 1; 
+    background-color: rgb(23, 162, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+
+  .iconocontainer {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .icono {
+    margin: 0 10px;
+    max-width: 100%;    
+  }
+
+  .segundafila {
+    flex: 1;
+    background-color: rgb(232, 62, 140); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
